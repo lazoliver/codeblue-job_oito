@@ -2,14 +2,14 @@
 h1{margin: 15px 0 14px;}
 main > figure img{margin-bottom: 97px;}
 .artigo > figure{margin-right: 48px;}
-.artigo-dois > article{margin-left: 48px;}
+.artigo-dois > figure{margin-left: 48px;}
 .artigo > article > h2{margin: 32px 0 0;}
 .artigo > article > h2, .artigo-dois > article > h2{
     font: 700 48px Arial, Helvetica, Sans-Serif;
     margin-bottom: 16px;
     width: 70%;
 }
-.artigo > article > p{
+.artigo > article > p, .artigo-dois > article > p{
     color: #4D4D4D;
     line-height: 24px;
     letter-spacing: 0.04em;
@@ -85,6 +85,7 @@ main > figure img{margin-bottom: 97px;}
 .botao{
     background: #FF651A;
     padding: 16px 0;
+    cursor: pointer;
 }
 .botao > a{
     color: #291300;
