@@ -84,10 +84,13 @@ main > figure img{margin-bottom: 97px;}
 .loja{margin-bottom: 96px;}
 .botao{
     background: #FF651A;
-    padding: 16px 0;
     cursor: pointer;
 }
 .botao > a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 16px 0;
     color: #291300;
     font: 700 12px Arial, Helvetica, Sans-serif;
     letter-spacing: 0.04em;
@@ -101,3 +104,5 @@ main > figure img{margin-bottom: 97px;}
     padding-left: 8px;
     vertical-align: middle;
 }
+.loja .row{justify-content: space-around;}
+.loja > section > article{max-width: 256px;}
